@@ -1,11 +1,9 @@
-# basic-operator #
+# print-number-properties #
 
-请修改[代码]()完成下列所要求的计算：
-- Step 1：将num2乘以4
-- Step 2：将num1和上一步结果相加
-- Step 3：将上一步结果除以3
-- Step 4：将上一步结果对5求余
-- Step 5：用100减去上一步的结果，打印剩余的数值
-
+请利用运算符相关知识按下列要求补全[代码]([PrintNumberProperties.java](src%2Fmain%2Fjava%2Fcom%2Fjirengu%2FPrintNumberProperties.java))：
+- 1. 如果该数是偶数，则返回"Even"
+- 2. 如果该数是奇数，则返回"Odd"
+- 3. 如果该数同时是偶数并且大于10，返回"Even and Large"
+- 4. 如果该数同时是奇数并且大于10，返回"Odd and Large"
 
 在提交Pull Request之前，你应当在本地确保所有代码已经编译通过，并且通过了测试(mvn clean verify)
