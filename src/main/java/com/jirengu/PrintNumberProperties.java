@@ -14,7 +14,7 @@ public class PrintNumberProperties {
         // 2. 如果该数是奇数，则返回"Odd"
         // 3. 如果该数同时是偶数并且大于10，返回"Even and Large"
         // 4. 如果该数同时是奇数并且大于10，返回"Odd and Large"
-        return _____________ ? (_____________ ? "Even and Large" : "Even")
-                : (_____________ ? "Odd and Large" : "Odd");
+        return num % 2 == 0 ? (num > 10 ? "Even and Large" : "Even")
+                : (num > 10 ? "Odd and Large" : "Odd");
     }
 }
